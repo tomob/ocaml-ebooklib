@@ -1,3 +1,7 @@
 (library
  (public_name ebooklib)
- (name ebooklib))
+ (name ebooklib)
+ (libraries
+   core
+   camlzip
+   lambdasoup))
